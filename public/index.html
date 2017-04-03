@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chatSockets</title>
+	<script src="http://192.168.1.186:3000/socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>chatSocket</h1>
+	<div id="messages"></div>
+
+	<br>
+
+	<form onsubmit="return addMessage(this)">
+		<input type="text" name="username" id="username" placeholder="Nombre de Usuario">
+		<input type="text" name="text" id="text" placeholder="Mensaje">
+		<input type="submit" value="Enviar">
+	</form>
+
+</body>
+</html>
